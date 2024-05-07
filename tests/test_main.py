@@ -1,5 +1,4 @@
-import pytest
-from python import increment_numbers
+from python.main import increment_numbers
 
 
 def test_increment_numbers():
