@@ -1,7 +1,7 @@
 from python.main import increment_numbers
 
 
-def test_increment_numbers():
+def test_increment_numbers() -> None:
     input_data = [3, 2, 3]
     expected_output = [5, 4, 5]
     result = increment_numbers(input_data)
