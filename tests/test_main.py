@@ -10,4 +10,4 @@ def test_increment_numbers(golden: Any) -> None:
 
     result = increment_numbers(input_data)
 
-    assert result == expected_output, "increment_numbers не работает как ожидается"
+    assert result == expected_output, "не работает как ожидается"
